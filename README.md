@@ -1,2 +1,4 @@
 # scope3-transport-emissions-calculator
 Python script calculating Scope 3 CO2 emissions for apparel supply chains (Nord Studio case).
+
+\# 🌿 Scope 3 Transport Emissions Calculator An automated Python script that calculates Scope 3 upstream and downstream transportation emissions for apparel logistics. ## 📌 Case Context Applied to \*\*Nord Studio AB\*\* (10,000 sweatshirts/year, \~2.5 tons total shipment weight) across two main transport legs: 1\. Ocean freight from cotton/fabric nodes in India to Turkey. 2\. Road freight from sewing facilities in Turkey to central distribution in Sweden. ## 🚀 How to Run 1\. Install pandas: \`pip install pandas\` 2\. Run the script: \`python main.py\` ## 📊 Key Metrics Used - Emission Factors based on GLEC Framework / ISO 14083 standards. - Output measures total \\\\(CO\_2e\\\\) emissions in kilograms across transport legs.
